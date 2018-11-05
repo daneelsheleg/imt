@@ -1,0 +1,33 @@
+body{
+	font-family: sans-serif;
+	background: #ABADE5;
+}
+.one, .two, .three, .four{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+.three{
+	padding: 20px 50px 20px 50px;
+	border: none;
+	background: #E5AE9D;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 28px;
+}
+.one, .two{
+	font-size: 28px;
+}
+.zero{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+.four{
+	font-size: 20px
+}

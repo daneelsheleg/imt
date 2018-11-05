@@ -95,17 +95,18 @@ alert(mass);
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    var weightElem = document.querySelector('#weight');
+    var weightElem = document.querySelector('#weight') ;
     var growElem = document.querySelector('#grow');
     var buttonElem = document.querySelector('#button');
     var textElem = document.querySelector('#text');
-    buttonElem.addEventListener('click', function (event) {
 
+    buttonElem.addEventListener('click', function (event) {
+  
         event.preventDefault();
         
         var a = weightElem.value;
         var b = growElem.value;
-        var ab = a/(b*b);
+        var ab = (a)/((b*b)/10000);
         var mass = textElem;
                 var mass = (ab < 16) ? 'дефецит \n Рекомендация: намного, намного больше надо есть':
                                 (ab < 18.5) ? 'недостаточный \n Рекомендация: больше есть':
